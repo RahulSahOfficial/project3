@@ -1,0 +1,87 @@
+body{
+  font-family: 'Karla', sans-serif;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+.btn{
+  background-color: #bfdf32;
+  margin-top: 50px;
+}
+.top-white{
+  margin: 3% 0 0 5%;
+  /* word-spacing: 5px;
+  letter-spacing: 1px; */
+}
+.joc{
+  color: #2bb3b1;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.sec{
+  color: #bfdf32;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.toppara{
+  font-size: 20px;
+  font-weight: 700;
+  color: #c5c5c5;
+  margin-bottom: 50px;
+  line-height: 40px;
+}
+.bottom-blue{
+  color: white;
+}
+.darkblue{
+  background-color: #2bb3b1;
+  padding: 5%;
+}
+.ms{
+
+}
+.pricing{
+  font-size: 20px;
+  color: hsl(204, 43%, 93%);
+}
+.price{
+  font-size: 38px;
+  font-weight: 700;
+  color: white;
+  padding-right: 15px;
+}
+.payment-details{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.lightblue{
+    background-color:#4abebd;
+    padding: 5%;
+}
+.why{
+  font-weight: 600;
+  margin: 0 0 15px 0;
+}
+.list-items{
+  font-size: 15px;
+  color: hsl(204, 43%, 93%);
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+@media only screen and (max-width: 900px) {
+    .top-white{
+      margin: 3% 0 0 10%
+    }
+    .lightblue{
+      padding-left: 10%;
+    }
+    .darkblue{
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .btn{
+      margin-bottom: 30px;
+    }
+}
